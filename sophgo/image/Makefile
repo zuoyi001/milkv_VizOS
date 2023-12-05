@@ -49,8 +49,8 @@ define Image/Build
 	mkimage -f ${STAGING_DIR_IMAGE}/multi.its ${STAGING_DIR_IMAGE}/boot.sd
 	# ${PWD}/image/genimage.sh -c  ${PWD}/image/genimage.cfg
 
-	genimage --rootpath $(call mkfs_target_dir,$(1)) --inputpath $(STAGING_DIR_IMAGE) --outputpath $(BIN_DIR) --config ${PWD}/image/genimage.cfg
 	rm -rf ${PWD}/image/tmp || true
+	genimage --rootpath $(call mkfs_target_dir,$(1)) --inputpath $(STAGING_DIR_IMAGE) --outputpath $(BIN_DIR) --config ${PWD}/image/genimage.cfg
 endef
 
 

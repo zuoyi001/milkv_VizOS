@@ -73,6 +73,7 @@ UBOOT_TARGETS := \
 
 define Build/InstallDev
 	$(INSTALL_DIR) $(BIN_DIR)
+	mkdir -p $(STAGING_DIR_IMAGE)
 	$(CP) $(PKG_BUILD_DIR)/u-boot.bin $(STAGING_DIR_IMAGE)/u-boot.bin
 endef
 

@@ -1,1 +1,1 @@
-# *VizOS is a open source IP Camera OS base Openwrt*
+## *VizOS is an open-source IP Camera OS based on OpenWrt*

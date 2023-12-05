@@ -429,7 +429,7 @@ CONFIG_FEED_packages=y
 CONFIG_FEED_luci=y
 CONFIG_FEED_routing=y
 CONFIG_FEED_telephony=y
-CONFIG_FEED_sophgo=y
+CONFIG_FEED_vizos=y
 
 #
 # Base system
@@ -1557,7 +1557,7 @@ CONFIG_PACKAGE_libc=y
 #
 # Configuration
 #
-CONFIG_LIBC_ROOT_DIR="/home/baozhu/storage/cv181x/cvi_mmf_sdk/host-tools/gcc/riscv64-linux-musl-x86_64"
+CONFIG_LIBC_ROOT_DIR="/opt/host-tools/gcc/riscv64-linux-musl-x86_64"
 CONFIG_LIBC_FILE_SPEC="./sysroot/lib/ld-musl-riscv64-sf.so.1 ./sysroot/lib/ld-musl-riscv64.so.1 ./sysroot/lib/ld-musl-riscv64v0p7_xthead.so.1 ./sysroot/lib/ld-musl-riscv64v_xthead.so.1 ./sysroot/lib/ld-musl-riscv64xthead-sf.so.1 ./sysroot/lib/ld-musl-riscv64xthead.so.1 ./sysroot/usr/lib64/lp64d/libc.so ./sysroot/usr/lib64xthead/lp64d/libc.so"
 # end of Configuration
 
@@ -1566,7 +1566,7 @@ CONFIG_PACKAGE_libgcc=y
 #
 # Configuration
 #
-CONFIG_LIBGCC_ROOT_DIR="/home/baozhu/storage/cv181x/cvi_mmf_sdk/host-tools/gcc/riscv64-linux-musl-x86_64"
+CONFIG_LIBGCC_ROOT_DIR="/opt/host-tools/gcc/riscv64-linux-musl-x86_64"
 CONFIG_LIBGCC_FILE_SPEC="./riscv64-unknown-linux-musl/lib64xthead/lp64d/libgcc_s.so ./riscv64-unknown-linux-musl/lib64xthead/lp64d/libgcc_s.so.1 ./sysroot/lib64/lp64d/libgcc_s.so ./sysroot/lib64/lp64d/libgcc_s.so.1 ./sysroot/lib64xthead/lp64d/libgcc_s.so ./sysroot/lib64xthead/lp64d/libgcc_s.so.1"
 # end of Configuration
 
@@ -1575,7 +1575,7 @@ CONFIG_PACKAGE_libgomp=y
 #
 # Configuration
 #
-CONFIG_LIBGOMP_ROOT_DIR="/home/baozhu/storage/cv181x/cvi_mmf_sdk/host-tools/gcc/riscv64-linux-musl-x86_64"
+CONFIG_LIBGOMP_ROOT_DIR="/opt/host-tools/gcc/riscv64-linux-musl-x86_64"
 CONFIG_LIBGOMP_FILE_SPEC="./riscv64-unknown-linux-musl/lib64xthead/lp64d/libgomp.so ./riscv64-unknown-linux-musl/lib64xthead/lp64d/libgomp.so.1 ./riscv64-unknown-linux-musl/lib64xthead/lp64d/libgomp.so.1.0.0 ./sysroot/lib64/lp64d/libgomp.so ./sysroot/lib64/lp64d/libgomp.so.1 ./sysroot/lib64/lp64d/libgomp.so.1.0.0 ./sysroot/lib64xthead/lp64d/libgomp.so ./sysroot/lib64xthead/lp64d/libgomp.so.1 ./sysroot/lib64xthead/lp64d/libgomp.so.1.0.0"
 # end of Configuration
 
@@ -1584,7 +1584,7 @@ CONFIG_PACKAGE_libpthread=y
 #
 # Configuration
 #
-CONFIG_LIBPTHREAD_ROOT_DIR="/home/baozhu/storage/cv181x/cvi_mmf_sdk/host-tools/gcc/riscv64-linux-musl-x86_64"
+CONFIG_LIBPTHREAD_ROOT_DIR="/opt/host-tools/gcc/riscv64-linux-musl-x86_64"
 CONFIG_LIBPTHREAD_FILE_SPEC="./lib/libpthread{-*.so,.so.*}"
 # end of Configuration
 
@@ -1594,7 +1594,7 @@ CONFIG_PACKAGE_libstdcpp=y
 #
 # Configuration
 #
-CONFIG_LIBSTDCPP_ROOT_DIR="/home/baozhu/storage/cv181x/cvi_mmf_sdk/host-tools/gcc/riscv64-linux-musl-x86_64"
+CONFIG_LIBSTDCPP_ROOT_DIR="/opt/host-tools/gcc/riscv64-linux-musl-x86_64"
 CONFIG_LIBSTDCPP_FILE_SPEC="./riscv64-unknown-linux-musl/lib64xthead/lp64d/libstdc++.so ./riscv64-unknown-linux-musl/lib64xthead/lp64d/libstdc++.so.6 ./riscv64-unknown-linux-musl/lib64xthead/lp64d/libstdc++.so.6.0.28 ./riscv64-unknown-linux-musl/lib64xthead/lp64d/libstdc++.so.6.0.28-gdb.py ./sysroot/lib64/lp64d/libstdc++.so ./sysroot/lib64/lp64d/libstdc++.so.6 ./sysroot/lib64/lp64d/libstdc++.so.6.0.28 ./sysroot/lib64/lp64d/libstdc++.so.6.0.28-gdb.py ./sysroot/lib64xthead/lp64d/libstdc++.so ./sysroot/lib64xthead/lp64d/libstdc++.so.6 ./sysroot/lib64xthead/lp64d/libstdc++.so.6.0.28 ./sysroot/lib64xthead/lp64d/libstdc++.so.6.0.28-gdb.py"
 # end of Configuration
 
