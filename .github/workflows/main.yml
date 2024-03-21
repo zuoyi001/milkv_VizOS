@@ -60,6 +60,7 @@ jobs:
         tar xf host-tools.tar.gz
         sudo mv host-tools /opt/host-tools
 
+        #做好编译安装genimage
         wget https://mirrors.sdu.edu.cn/ubuntu/ubuntu/pool/universe/g/genimage/genimage_16-2_amd64.deb
         sudo apt install libconfuse2 genext2fs
         sudo dpkg -i genimage_16-2_amd64.deb
